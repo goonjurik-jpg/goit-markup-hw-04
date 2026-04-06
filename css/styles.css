@@ -301,22 +301,25 @@ gap: 8px;
 
 .team-soc-list {
   gap: 24px;
-}
-
-.footer-soc-list {
-  gap: 16px;
-}
-
-.team-soc-list,
-.footer-soc-list {
-  display: flex;
+    display: flex;
 align-items: center;
 justify-content: center;
 list-style: none;
 flex-direction: row;
-
-
 }
+
+
+
+
+.footer-soc-list {
+    display: flex;
+align-items: center;
+list-style: none;
+flex-direction: row;
+  gap: 16px;
+  left: 0;
+}
+
 
 .team-link,
 .footer-link {
